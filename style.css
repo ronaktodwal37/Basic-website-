@@ -119,10 +119,10 @@
     text-decoration: none;
 } */
 
-#herofooter #iconset {
+/* #herofooter #iconset {
     display: flex;
     gap: 5px;
-}
+} */
 
 #herofooter .circle {
     display: flex;

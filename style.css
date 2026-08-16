@@ -173,7 +173,7 @@
     transform: translate(-50%, -50%);
 } */
 
-#about {
+/* #about {
     display: flex;
     align-items: center;
     gap: 50px;
@@ -182,7 +182,7 @@
     padding-left: 40vw;
     width: 100%;
     background-color: black;
-}
+} */
 
 #textabout {
     width: 25rem;

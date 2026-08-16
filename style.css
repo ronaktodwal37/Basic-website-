@@ -103,7 +103,7 @@
     text-align: right;
 } */
 
-#herofooter {
+/* #herofooter {
     padding: 0 2vw;
     width: 100%;
     position: absolute;
@@ -111,7 +111,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+} */
 
 #herofooter a {
     color: #fff;

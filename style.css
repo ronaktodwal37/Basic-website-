@@ -124,7 +124,7 @@
     gap: 5px;
 } */
 
-#herofooter .circle {
+/* #herofooter .circle {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -132,7 +132,7 @@
     height: 25px;
     border-radius: 50%;
     background-color: #888;
-}
+} */
 
 #second {
     color: #fff;

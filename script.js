@@ -88,9 +88,9 @@ document.querySelectorAll(".elem").forEach(function (elem) {
   // });
 
   elem.addEventListener("mousemove", function (dets) {
-    var diff = dets.clientY - elem.getBoundingClientRect().top;
-    diffrot = dets.clientX - rotate;
-    rotate = dets.clientX;
+    // var diff = dets.clientY - elem.getBoundingClientRect().top;
+    // diffrot = dets.clientX - rotate;
+    // rotate = dets.clientX;
     gsap.to(elem.querySelector("img"), {
       opacity: 1,
       ease: Power3,

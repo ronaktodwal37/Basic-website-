@@ -79,13 +79,13 @@ document.querySelectorAll(".elem").forEach(function (elem) {
   // var rotate = 0;
   // var diffrot = 0;
 
-  elem.addEventListener("mouseleave", function (dets) {
-    gsap.to(elem.querySelector("img"), {
-      opacity: 0,
-      ease: Power3,
-      duration: 0.5,
-    });
-  });
+  // elem.addEventListener("mouseleave", function (dets) {
+  //   gsap.to(elem.querySelector("img"), {
+  //     opacity: 0,
+  //     ease: Power3,
+  //     duration: 0.5,
+  //   });
+  // });
 
   elem.addEventListener("mousemove", function (dets) {
     var diff = dets.clientY - elem.getBoundingClientRect().top;

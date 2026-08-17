@@ -29,7 +29,7 @@
 //     });
 // }
 
-firstPageAnim();
+// firstPageAnim();
 
 function circleMouseFollower(xscale, yscale) {
   window.addEventListener("mousemove", function (dets) {

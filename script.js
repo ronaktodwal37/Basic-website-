@@ -76,8 +76,8 @@
 
 
 document.querySelectorAll(".elem").forEach(function (elem) {
-  var rotate = 0;
-  var diffrot = 0;
+  // var rotate = 0;
+  // var diffrot = 0;
 
   elem.addEventListener("mouseleave", function (dets) {
     gsap.to(elem.querySelector("img"), {

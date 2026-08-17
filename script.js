@@ -4,8 +4,8 @@ const scroll = new LocomotiveScroll({
 });
 
 
-// function firstPageAnim() {
-  // var tl = gsap.timeline();
+function firstPageAnim() {
+  var tl = gsap.timeline();
 
   tl.from("#nav", {
     y: "-10",
@@ -27,7 +27,7 @@ const scroll = new LocomotiveScroll({
       delay: -1,
       ease: Expo.easeInOut,
     });
-// }
+}
 
 // firstPageAnim();
 

@@ -92,11 +92,11 @@ document.querySelectorAll(".elem").forEach(function (elem) {
     // diffrot = dets.clientX - rotate;
     // rotate = dets.clientX;
     gsap.to(elem.querySelector("img"), {
-      opacity: 1,
-      ease: Power3,
-      top: diff,
-      left: dets.clientX,
-      rotate: gsap.utils.clamp(-20, 20, diffrot * 0.5),
+      // opacity: 1,
+      // ease: Power3,
+      // top: diff,
+      // left: dets.clientX,
+      // rotate: gsap.utils.clamp(-20, 20, diffrot * 0.5),
     });
   });
 });

@@ -42,7 +42,7 @@ circleMouseFollower();
 
 // jab mouse move ho to hum mouse move kr paye aur maximum skew and minimum skew define kr paye , jab mouse move ho to chapta ki. valur badhe aur jab mouse chalna band ho jaye to chapta hata do 
 
-// function circleChaptaKaro() {
+function circleChaptaKaro() {
   // define default scale value
   var xscale = 1;
   var yscale = 1;
@@ -50,24 +50,24 @@ circleMouseFollower();
   var xprev = 0;
   var yprev = 0;
 
-  // window.addEventListener("mousemove", function (dets) {
-  //   clearTimeout(timeout);
+  window.addEventListener("mousemove", function (dets) {
+    clearTimeout(timeout);
 
-    // xscale = gsap.utils.clamp(0.8, 1.2, dets.clientX - xprev);
-    // yscale = gsap.utils.clamp(0.8, 1.2, dets.clientY - yprev);
+    xscale = gsap.utils.clamp(0.8, 1.2, dets.clientX - xprev);
+    yscale = gsap.utils.clamp(0.8, 1.2, dets.clientY - yprev);
 
-    // xprev = dets.clientX;
-    // yprev = dets.clientY;
+    xprev = dets.clientX;
+    yprev = dets.clientY;
 
-    // circleMouseFollower(xscale, yscale);
+    circleMouseFollower(xscale, yscale);
 
-//     timeout = setTimeout(function () {
-//       document.querySelector(
-//         "#minicircle"
-//       ).style.transform = `translate(${dets.clientX}px, ${dets.clientY}px) scale(1, 1)`;
-//     }, 100);
-//   });
-// }
+    timeout = setTimeout(function () {
+      document.querySelector(
+        "#minicircle"
+      ).style.transform = `translate(${dets.clientX}px, ${dets.clientY}px) scale(1, 1)`;
+    }, 100);
+  });
+}
 
 // circleChaptaKaro();
 

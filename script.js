@@ -53,8 +53,8 @@ function circleChaptaKaro() {
   window.addEventListener("mousemove", function (dets) {
     clearTimeout(timeout);
 
-    xscale = gsap.utils.clamp(0.8, 1.2, dets.clientX - xprev);
-    yscale = gsap.utils.clamp(0.8, 1.2, dets.clientY - yprev);
+    // xscale = gsap.utils.clamp(0.8, 1.2, dets.clientX - xprev);
+    // yscale = gsap.utils.clamp(0.8, 1.2, dets.clientY - yprev);
 
     xprev = dets.clientX;
     yprev = dets.clientY;

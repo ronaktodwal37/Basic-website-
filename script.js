@@ -59,7 +59,7 @@ function circleChaptaKaro() {
     // xprev = dets.clientX;
     // yprev = dets.clientY;
 
-    circleMouseFollower(xscale, yscale);
+    // circleMouseFollower(xscale, yscale);
 
     timeout = setTimeout(function () {
       document.querySelector(

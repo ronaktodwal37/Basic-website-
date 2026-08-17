@@ -13,13 +13,13 @@ function firstPageAnim() {
   //   duration: 1.5,
   //   ease: Expo.easeInOut,
   // })
-    .to(".boundingelem", {
-      y: 0,
-      ease: Expo.easeInOut,
-      duration: 2,
-      delay: -1,
-      stagger: 0.2,
-    })
+    // .to(".boundingelem", {
+    //   y: 0,
+    //   ease: Expo.easeInOut,
+    //   duration: 2,
+    //   delay: -1,
+    //   stagger: 0.2,
+    // })
     .from("#herofooter", {
       y: -10,
       opacity: 0,

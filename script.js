@@ -69,7 +69,7 @@ function circleChaptaKaro() {
   });
 }
 
-// circleChaptaKaro();
+circleChaptaKaro();
 
 
 // teeno element ko select kro , uske bad teeno par ek mousemove lagao , jab mousemove ho to ye pta kro ki mouse kha pr hai , jiska matlab hai mouse ki x and y position pta kro , ab mouse ki x y position ke badle us image ko show karo and us image ko move kro , move krte waqt rotate kro , and jaise jaise mouse tez chale waise rotation bhi tez ho jaye 

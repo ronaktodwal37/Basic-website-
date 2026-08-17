@@ -47,8 +47,8 @@ function circleChaptaKaro() {
   // var xscale = 1;
   // var yscale = 1;
 
-  var xprev = 0;
-  var yprev = 0;
+  // var xprev = 0;
+  // var yprev = 0;
 
   window.addEventListener("mousemove", function (dets) {
     clearTimeout(timeout);

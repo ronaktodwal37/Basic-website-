@@ -38,7 +38,7 @@ function circleMouseFollower(xscale, yscale) {
     ).style.transform = `translate(${dets.clientX}px, ${dets.clientY}px) scale(${xscale}, ${yscale})`;
   });
 }
-// circleMouseFollower();
+circleMouseFollower();
 
 // jab mouse move ho to hum mouse move kr paye aur maximum skew and minimum skew define kr paye , jab mouse move ho to chapta ki. valur badhe aur jab mouse chalna band ho jaye to chapta hata do 
 

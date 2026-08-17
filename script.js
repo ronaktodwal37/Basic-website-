@@ -75,9 +75,9 @@
 // teeno element ko select kro , uske bad teeno par ek mousemove lagao , jab mousemove ho to ye pta kro ki mouse kha pr hai , jiska matlab hai mouse ki x and y position pta kro , ab mouse ki x y position ke badle us image ko show karo and us image ko move kro , move krte waqt rotate kro , and jaise jaise mouse tez chale waise rotation bhi tez ho jaye 
 
 
-// document.querySelectorAll(".elem").forEach(function (elem) {
-  // var rotate = 0;
-  // var diffrot = 0;
+document.querySelectorAll(".elem").forEach(function (elem) {
+  var rotate = 0;
+  var diffrot = 0;
 
   elem.addEventListener("mouseleave", function (dets) {
     gsap.to(elem.querySelector("img"), {
@@ -99,4 +99,4 @@
       rotate: gsap.utils.clamp(-20, 20, diffrot * 0.5),
     });
   });
-// });
+});

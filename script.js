@@ -5,7 +5,7 @@
 
 
 function firstPageAnim() {
-  var tl = gsap.timeline();
+  // var tl = gsap.timeline();
 
   tl.from("#nav", {
     y: "-10",

@@ -244,10 +244,10 @@ html, body {
     gap: 20px;
 }
 
-/* #footerright {
+#footerright {
     display: flex;
     gap: 30px;
-} */
+}
 /* 
 #footer a {
     text-transform: uppercase;

@@ -113,11 +113,11 @@ html, body {
     justify-content: space-between;
 }
 
-/* #herofooter a {
+#herofooter a {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-} */
+}
 
 /* #herofooter #iconset {
     display: flex;

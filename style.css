@@ -82,11 +82,11 @@ html, body {
     width: fit-content;
 }
 
-/* .blocktext h5 {
+.blocktext h5 {
     text-transform: uppercase;
     font-size: 15px;
     text-align: right !important;
-} */
+}
 
 /* #chhotiheadings {
     display: flex;

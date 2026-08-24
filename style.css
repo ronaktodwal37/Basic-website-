@@ -43,14 +43,14 @@ html, body {
     background-color: black;
 }
 
-/* #nav {
+#nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     padding: 20px 40px;
     color: #fff;
-} */
+}
 
 /* #nav a {
     text-decoration: none;

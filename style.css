@@ -188,11 +188,11 @@ html, body {
     width: 25rem;
 }
 
-/* #textabout h5 {
+#textabout h5 {
     text-transform: uppercase;
     opacity: .6;
     margin-bottom: 10px;
-} */
+}
 
 /* #textabout p {
     line-height: 1.7;

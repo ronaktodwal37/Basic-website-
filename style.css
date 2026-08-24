@@ -25,9 +25,9 @@ html, body {
     overflow: hidden;
 }
 
-/* .bounding .boundingelem {
+.bounding .boundingelem {
     transform: translateY(100%);
-} */
+}
 
 /* 
 #main {
